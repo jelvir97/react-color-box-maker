@@ -1,7 +1,7 @@
 import React from "react";
 import "./Box.css";
 
-const Box = ({ info, id,removeBox }) => (
+const Box = ({ info, id, removeBox }) => (
   <div className="Box"
     style={{
       backgroundColor: info.color,
