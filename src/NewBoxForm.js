@@ -24,7 +24,7 @@ const NewBoxForm = ({addBox})=>{
 
     return (
         <form onSubmit={submitForm}>
-            <label htmlFor="color">Color: </label>
+            <label htmlFor="color">Color:</label>
             <input 
                 type="color"
                 id="color"

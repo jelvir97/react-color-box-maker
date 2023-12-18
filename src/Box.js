@@ -3,6 +3,7 @@ import "./Box.css";
 
 const Box = ({ info, id, removeBox }) => (
   <div className="Box"
+    aria-label="box"
     style={{
       backgroundColor: info.color,
       width: info.width + "px",
